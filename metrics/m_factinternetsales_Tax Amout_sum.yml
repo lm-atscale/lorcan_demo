@@ -1,0 +1,6 @@
+unique_name: m_factinternetsales_Tax Amout_sum
+object_type: metric
+label: Tax Amout
+calculation_method: sum
+column: Tax Amout
+dataset: factinternetsales
