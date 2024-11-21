@@ -1,0 +1,16 @@
+unique_name: Test
+object_type: model
+label: Test
+dimensions: []
+metrics:
+  - unique_name: m_factinternetsales_orderquantity_sum
+relationships:
+  - unique_name: factinternetsales_orderdatekey_to_datecustom_dimension_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    role_play: Order {0}
+    to:
+      dimension: datecustom_dimension
+      level: Date
