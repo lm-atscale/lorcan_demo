@@ -1,6 +1,0 @@
-version: 1
-unique_name: Demo
-object_type: catalog
-label: Demo
-aggressive_agg_promotion: false
-build_speculative_aggs: true
