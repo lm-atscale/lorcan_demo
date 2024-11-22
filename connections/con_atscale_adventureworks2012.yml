@@ -1,6 +1,0 @@
-unique_name: con_atscale_adventureworks2012
-object_type: connection
-label: con_atscale_adventureworks2012
-as_connection: Databricks
-database: atscale
-schema: adventureworks2012
