@@ -4,6 +4,7 @@ label: Color Dimension
 hierarchies:
   - unique_name: Color
     label: Color
+    folder: Product Attributes
     levels:
       - unique_name: Color
 is_degenerate: true

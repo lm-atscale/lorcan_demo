@@ -4,6 +4,7 @@ label: Date Dimension
 hierarchies:
   - unique_name: Y Q M D Hierarchy
     label: Y Q M D Hierarchy
+    folder: Date Attributes
     levels:
       - unique_name: Year
       - unique_name: Quarter
@@ -25,7 +26,7 @@ level_attributes:
     dataset: datecustom
     key_columns:
       - month
-    name_column: month
+    name_column: month_of_year
     time_unit: month
   - unique_name: Quarter
     label: Quarter
@@ -41,6 +42,6 @@ level_attributes:
     dataset: datecustom
     key_columns:
       - year
-    name_column: year
+    name_column: year_name
     time_unit: year
 type: time

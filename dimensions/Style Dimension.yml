@@ -4,6 +4,7 @@ label: Style Dimension
 hierarchies:
   - unique_name: Style
     label: Style
+    folder: Product Attributes
     levels:
       - unique_name: Style
 is_degenerate: true

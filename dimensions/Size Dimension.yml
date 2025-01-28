@@ -4,6 +4,7 @@ label: Size Dimension
 hierarchies:
   - unique_name: Size
     label: Size
+    folder: Product Attributes
     levels:
       - unique_name: Size
 is_degenerate: true

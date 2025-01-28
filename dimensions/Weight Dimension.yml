@@ -4,6 +4,7 @@ label: Weight Dimension
 hierarchies:
   - unique_name: Weight
     label: Weight
+    folder: Product Attributes
     levels:
       - unique_name: Weight
 is_degenerate: true
