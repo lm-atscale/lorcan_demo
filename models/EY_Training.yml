@@ -1,12 +1,14 @@
 unique_name: EY_Training
 object_type: model
 label: EY_Training
+dimensions: []
 metrics: []
 relationships:
-  - unique_name: factinternetsales_empty_dimension
+  - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
     from:
       dataset: factinternetsales
-      join_columns: []
+      join_columns:
+        - productkey
     to:
-      dimension: ''
-      level: ''
+      dimension: Product Dimension
+      level: Product Name
