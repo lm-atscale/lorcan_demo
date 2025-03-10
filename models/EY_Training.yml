@@ -1,0 +1,12 @@
+unique_name: EY_Training
+object_type: model
+label: EY_Training
+metrics: []
+relationships:
+  - unique_name: factinternetsales_empty_dimension
+    from:
+      dataset: factinternetsales
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
