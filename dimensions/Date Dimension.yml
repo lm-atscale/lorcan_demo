@@ -6,7 +6,7 @@ hierarchies:
     label: Y Q M D Hierarchy
     folder: Date Attributes
     levels:
-      - unique_name: Year
+      - unique_name: year
       - unique_name: Quarter
       - unique_name: Month
       - unique_name: Date
@@ -18,7 +18,7 @@ level_attributes:
     is_unique_key: false
     key_columns:
       - datekey
-    name_column: pk_date
+    name_column: date_name
     time_unit: day
   - unique_name: Month
     label: Month
@@ -36,8 +36,8 @@ level_attributes:
       - quarter
     name_column: quarter_name
     time_unit: quarter
-  - unique_name: Year
-    label: Year
+  - unique_name: year
+    label: year
     contains_unique_names: false
     dataset: datecustom
     key_columns:

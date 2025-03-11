@@ -12,7 +12,7 @@ columns:
     data_type: int
   - name: product_info
     map:
-      field_terminator: ","
+      field_terminator: ','
       key_terminator: ':'
       key_type: String
       value_type: String

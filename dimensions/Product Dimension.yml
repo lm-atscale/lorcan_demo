@@ -2,8 +2,8 @@ unique_name: Product Dimension
 object_type: dimension
 label: Product Dimension
 hierarchies:
-  - unique_name: Product Dimension_1
-    label: Product Dimension
+  - unique_name: Product Dimension Hierarchy
+    label: Product Dimension Hierarchy
     folder: Product Attributes
     levels:
       - unique_name: Product Line
@@ -23,7 +23,7 @@ level_attributes:
     contains_unique_names: false
     dataset: dimproduct
     key_columns:
-      - productsubcategorykey
+      - productsubcategoryname
     name_column: productsubcategoryname
   - unique_name: Product Line
     label: Product Line
