@@ -4,6 +4,7 @@ label: Date Dimension
 hierarchies:
   - unique_name: Y Q M D Hierarchy
     label: Y Q M D Hierarchy
+    folder: Date Attributes
     levels:
       - unique_name: Date
 level_attributes:
