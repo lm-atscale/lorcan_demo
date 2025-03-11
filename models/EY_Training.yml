@@ -12,6 +12,7 @@ metrics:
   - unique_name: Order Quantity
   - unique_name: Tax Amount
   - unique_name: Unit Price
+  - unique_name: Average Sales per Order
 relationships:
   - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
     from:
