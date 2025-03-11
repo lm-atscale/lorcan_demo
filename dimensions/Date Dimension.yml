@@ -1,0 +1,19 @@
+unique_name: Date Dimension
+object_type: dimension
+label: Date Dimension
+hierarchies:
+  - unique_name: Y Q M D Hierarchy
+    label: Y Q M D Hierarchy
+    levels:
+      - unique_name: Date
+level_attributes:
+  - unique_name: Date
+    label: Date
+    contains_unique_names: false
+    dataset: datecustom
+    is_unique_key: false
+    key_columns:
+      - datekey
+    name_column: date_name
+    time_unit: day
+type: time
