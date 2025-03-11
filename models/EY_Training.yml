@@ -6,7 +6,12 @@ dimensions:
   - Style
   - Size
   - Color
-metrics: []
+metrics:
+  - unique_name: Calculated Tax
+  - unique_name: Sales Amount
+  - unique_name: Order Quantity
+  - unique_name: Tax Amount
+  - unique_name: Unit Price
 relationships:
   - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
     from:
