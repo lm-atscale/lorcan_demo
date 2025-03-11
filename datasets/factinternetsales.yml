@@ -11,7 +11,23 @@ columns:
   - name: productkey
     data_type: int
   - name: product_info
+    map:
+      field_terminator: ','
+      key_terminator: ':'
+      key_type: String
+      value_type: String
+  - name: color
     data_type: string
+    parent_column: product_info
+  - name: size
+    data_type: string
+    parent_column: product_info
+  - name: style
+    data_type: string
+    parent_column: product_info
+  - name: weight
+    data_type: string
+    parent_column: product_info
   - name: orderdatekey
     data_type: int
   - name: customerkey
@@ -30,5 +46,8 @@ columns:
     data_type: int
   - name: currencykey
     data_type: int
+  - name: Calculated Tax
+    data_type: double
+    sql: salesamount*0.085
 connection_id: con_atscale_sample_data_as_adventure
 table: factinternetsales
