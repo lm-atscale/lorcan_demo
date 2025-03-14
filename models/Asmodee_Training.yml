@@ -2,10 +2,10 @@ unique_name: Asmodee_Training
 object_type: model
 label: Asmodee_Training
 dimensions:
-  - Color Dimension
-  - Size Dimension
-  - Style Dimension
-  - Weight Dimension
+  - Color
+  - Size
+  - Style
+  - Weight
 metrics:
   - unique_name: Sales Amount
     folder: Sales Metrics
