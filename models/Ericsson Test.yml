@@ -1,7 +1,12 @@
 unique_name: Ericsson Test
 object_type: model
 label: Ericsson Test
-metrics: []
+metrics:
+  - unique_name: Sales Amount
+  - unique_name: Unit Price
+  - unique_name: Order Quantity
+  - unique_name: Tax Amount
+  - unique_name: Effective Sales Amount
 relationships:
   - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
     from:

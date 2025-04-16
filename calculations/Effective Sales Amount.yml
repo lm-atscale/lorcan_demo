@@ -1,0 +1,5 @@
+unique_name: Effective Sales Amount
+object_type: metric_calc
+label: Effective Sales Amount
+expression: '[Measures].[Sales Amount] + [Measures].[Tax Amount]'
+is_hidden: false
