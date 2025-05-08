@@ -1,6 +1,6 @@
-unique_name: EY_Training
+unique_name: Pricing Model
 object_type: model
-label: EY_Training
+label: Pricing Model
 dimensions:
   - Weight
   - Style
