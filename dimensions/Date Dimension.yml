@@ -10,6 +10,15 @@ hierarchies:
       - unique_name: Quarter
       - unique_name: Month
       - unique_name: Date
+        secondary_attributes:
+          - unique_name: Day of Week
+            label: Day of Week
+            contains_unique_names: false
+            dataset: datecustom
+            is_unique_key: false
+            key_columns:
+              - day_of_week
+            name_column: day_of_week
 level_attributes:
   - unique_name: Date
     label: Date
