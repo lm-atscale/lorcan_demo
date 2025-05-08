@@ -21,10 +21,3 @@ relationships:
     to:
       dimension: Date Dimension
       level: Date
-  - unique_name: ''
-    from:
-      dataset: factinternetsales
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
