@@ -1,19 +1,35 @@
 unique_name: StructredWeb-Poc
 object_type: model
 label: StructredWeb-Poc
-metrics: []
+metrics:
+  - unique_name: Sales Amount
+  - unique_name: Order Quantity
+  - unique_name: Unit Price
+  - unique_name: Amount Per Unit
 relationships:
-  - unique_name: factinternetsales_empty_dimension
+  - unique_name: factinternetsales_shipdatekey_to_Date Dimension_Date
     from:
       dataset: factinternetsales
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
-  - unique_name: empty_dataset_Date_Dimension
-    from:
-      dataset: ''
-      join_columns: []
+      join_columns:
+        - shipdatekey
+    role_play: Ship {0}
     to:
       dimension: Date Dimension
-      level: ''
+      level: Date
+  - unique_name: factinternetsales_orderdatekey_to_Date Dimension_Date
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
+    role_play: Order {0}
+    to:
+      dimension: Date Dimension
+      level: Date
+  - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: Product Dimension
+      level: Product Name
