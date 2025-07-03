@@ -1,0 +1,19 @@
+unique_name: StructredWeb-Poc
+object_type: model
+label: StructredWeb-Poc
+metrics: []
+relationships:
+  - unique_name: factinternetsales_empty_dimension
+    from:
+      dataset: factinternetsales
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: empty_dataset_Date_Dimension
+    from:
+      dataset: ''
+      join_columns: []
+    to:
+      dimension: Date Dimension
+      level: ''
