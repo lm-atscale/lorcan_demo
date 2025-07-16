@@ -22,7 +22,7 @@ level_attributes:
     contains_unique_names: false
     dataset: dimproduct
     key_columns:
-      - productsubcategorykey
+      - productsubcategoryname
     name_column: productsubcategoryname
   - unique_name: Product Line
     label: Product Line

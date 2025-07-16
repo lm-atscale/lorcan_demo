@@ -1,0 +1,6 @@
+unique_name: Overall Sales
+object_type: metric
+label: Overall Sales
+calculation_method: sum
+column: Overall Sales
+dataset: factinternetsales
