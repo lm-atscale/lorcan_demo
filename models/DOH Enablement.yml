@@ -21,3 +21,11 @@ relationships:
     to:
       dimension: Date Dimension
       level: Date
+  - unique_name: factinternetsales_productkey_to_Product Dimension_Product Name
+    from:
+      dataset: factinternetsales
+      join_columns:
+        - productkey
+    to:
+      dimension: Product Dimension
+      level: Product Name

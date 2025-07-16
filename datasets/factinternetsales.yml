@@ -30,5 +30,8 @@ columns:
     data_type: long
   - name: currencykey
     data_type: long
+  - name: Overall Sales
+    data_type: double
+    sql: ROUND(salesamount + taxamt)
 connection_id: con_atscale_tutorial_data_as_adventure
 table: factinternetsales
