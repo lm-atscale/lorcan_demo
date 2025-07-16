@@ -1,0 +1,19 @@
+unique_name: Customer Key
+object_type: dimension
+label: Customer Key
+hierarchies:
+  - unique_name: Customer Key
+    label: Customer Key
+    folder: Customer Attributes
+    levels:
+      - unique_name: Customer Key
+is_degenerate: true
+level_attributes:
+  - unique_name: Customer Key
+    label: Customer Key
+    contains_unique_names: false
+    dataset: factinternetsales
+    key_columns:
+      - customerkey
+    name_column: customerkey
+type: standard

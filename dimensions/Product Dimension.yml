@@ -4,6 +4,7 @@ label: Product Dimension
 hierarchies:
   - unique_name: Product Dimension Hierarchy
     label: Product Dimension Hierarchy
+    folder: Product Attributes
     levels:
       - unique_name: Product Line
       - unique_name: Product Sub Category

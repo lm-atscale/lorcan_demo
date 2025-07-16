@@ -1,11 +1,14 @@
 unique_name: DOH Enablement
 object_type: model
 label: DOH Enablement
+dimensions:
+  - Customer Key
 metrics:
   - unique_name: Overall Sales
   - unique_name: Sales Amount
   - unique_name: Order Quantity
   - unique_name: Average Unit Price
+  - unique_name: Price per Unit
 relationships:
   - unique_name: factinternetsales_orderdatekey_to_Date Dimension_Date
     from:

@@ -1,0 +1,5 @@
+unique_name: Price per Unit
+object_type: metric_calc
+label: Price per Unit
+expression: '[Measures].[Overall Sales] / [Measures].[Order Quantity]'
+is_hidden: false
