@@ -9,6 +9,7 @@ metrics:
   - unique_name: Order Quantity
   - unique_name: Average Unit Price
   - unique_name: Price per Unit
+  - unique_name: Unit Price - Sum
 relationships:
   - unique_name: factinternetsales_orderdatekey_to_Date Dimension_Date
     from:
