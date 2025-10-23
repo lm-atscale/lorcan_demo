@@ -9,6 +9,22 @@ hierarchies:
       - unique_name: year
       - unique_name: Quarter
       - unique_name: Month
+        secondary_attributes:
+          - unique_name: Month of Year
+            label: Month of Year
+            contains_unique_names: false
+            dataset: datecustom
+            is_unique_key: false
+            key_columns:
+              - month_of_year
+            name_column: month_of_year
+            sort_column: month_of_year
+        aliases:
+          - unique_name: Month Alias
+            label: Month Alias
+            dataset: datecustom
+            name_column: month
+            sort_column: month
       - unique_name: Date
 level_attributes:
   - unique_name: Date
