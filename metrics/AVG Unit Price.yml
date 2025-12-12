@@ -1,0 +1,6 @@
+unique_name: AVG Unit Price
+object_type: metric
+label: AVG Unit Price
+calculation_method: average
+column: unitprice
+dataset: factinternetsales
