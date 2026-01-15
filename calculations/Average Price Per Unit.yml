@@ -1,0 +1,4 @@
+unique_name: Average Price Per Unit
+object_type: metric_calc
+label: Average Price Per Unit
+expression: '[Measures].[Sales Amount] / [Measures].[Order Quantity]'

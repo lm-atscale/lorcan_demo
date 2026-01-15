@@ -30,5 +30,8 @@ columns:
     data_type: long
   - name: currencykey
     data_type: long
+  - name: Effective Tax
+    data_type: double
+    sql: taxamt * 1.5
 connection_id: con_atscale-sales-demo_as_adventure
 table: factinternetsales
