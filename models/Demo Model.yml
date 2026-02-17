@@ -1,6 +1,6 @@
-unique_name: Asmodee_Training
+unique_name: Demo Model
 object_type: model
-label: Asmodee_Training
+label: Demo Model
 dimensions:
   - Color
   - Size
