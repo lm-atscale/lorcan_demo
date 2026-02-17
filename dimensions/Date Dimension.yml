@@ -11,7 +11,17 @@ calculation_groups:
       - unique_name: Current vs Last Year
         template: Current vs Last Year
         use_input_metric_format: true
+      - unique_name: Current vs Next
+        template: Current vs Next
+        use_input_metric_format: true
     folder: Time Intelligence
+  - unique_name: Time Intelligence Batch 2
+    label: Time Intelligence Batch 2
+    calculated_members:
+      - unique_name: Current
+        template: Current
+        use_input_metric_format: true
+    folder: Time Intelligence Batch 2
 hierarchies:
   - unique_name: Y Q M D Hierarchy
     label: Y Q M D Hierarchy
