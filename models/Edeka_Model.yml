@@ -5,6 +5,7 @@ metrics:
   - unique_name: Unit Price
   - unique_name: Order Quantity
   - unique_name: Sales Amount
+  - unique_name: Sales AMT Percent of Total
 relationships:
   - unique_name: factinternetsales_orderdatekey_to_Date Dimension_Date
     from:
